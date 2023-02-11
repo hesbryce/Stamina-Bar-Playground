@@ -9,18 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                    NavigationLink(destination: DetailView()) {
+                        Text("Go to Stress View")
+                }
+                NavigationLink(destination: DetailView2()) {
+                    Text("Go to Exercise View")
+            }
+                NavigationLink(destination: DetailView3()) {
+                    Text("Go to Rest View")
+            }
+            }
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct DetailView: View {
+    var body: some View {
+        Text("This is the Stress view")
+    }
+}
+
+struct DetailView2: View {
+    var body: some View {
+        Text("This is the Exercise view")
+    }
+}
+
+struct DetailView3: View {
+    var body: some View {
+        Text("This is the Rest view")
     }
 }
