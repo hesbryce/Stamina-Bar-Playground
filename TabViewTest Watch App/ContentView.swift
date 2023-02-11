@@ -20,6 +20,8 @@ struct ContentView: View {
                 NavigationLink(destination: DetailView3()) {
                     Text("Go to Rest View")
             }
+                
+            // Complete
             }
         }
     }
