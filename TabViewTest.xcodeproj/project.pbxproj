@@ -45,6 +45,7 @@
 		DA152235299528EC00121090 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA152237299528EE00121090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA15223A299528EE00121090 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA88DAD829983AE2003DE640 /* TabViewTest Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TabViewTest Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		DA152232299528EC00121090 /* TabViewTest Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				DA88DAD829983AE2003DE640 /* TabViewTest Watch App.entitlements */,
 				DA152233299528EC00121090 /* TabViewTestApp.swift */,
 				DA152235299528EC00121090 /* ContentView.swift */,
 				DA152237299528EE00121090 /* Assets.xcassets */,
@@ -322,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TabViewTest Watch App/TabViewTest Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TabViewTest Watch App/Preview Content\"";
@@ -329,6 +332,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TabViewTest;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "blaze blaze blaze blaze blaze blaze";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "blaze blaze blaze blaze blaze blaze";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TabViewTest Watch App/TabViewTest Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TabViewTest Watch App/Preview Content\"";
@@ -359,6 +365,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TabViewTest;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "blaze blaze blaze blaze blaze blaze";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "blaze blaze blaze blaze blaze blaze";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
